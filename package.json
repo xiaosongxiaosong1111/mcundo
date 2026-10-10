@@ -1,0 +1,23 @@
+{
+  "name": "mcundo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "麦单回正：安全取消、复核并重建错误的麦当劳 MCP 订单",
+  "bin": {
+    "mcundo": "src/cli.js"
+  },
+  "scripts": {
+    "demo": "node src/cli.js --demo",
+    "doctor": "node src/cli.js doctor",
+    "verify:live": "node src/cli.js verify",
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
