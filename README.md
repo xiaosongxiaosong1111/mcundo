@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/mcundo-hero.png" alt="麦单回正：订单小票、回正箭头与安全确认" width="100%" />
+  <img src="docs/assets/mcundo-cover.jpg" alt="麦单回正 McUndo：点错、点多、重复下单的安全补救助手" width="100%" />
 </p>
 
 <h1 align="center">麦单回正 McUndo</h1>
