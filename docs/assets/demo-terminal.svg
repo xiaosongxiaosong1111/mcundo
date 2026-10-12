@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">麦单回正离线演示终端</title>
+  <desc id="desc">使用合成订单演示把两个汉堡改为一个，确认取消旧单并创建待支付新单。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171717"/>
+      <stop offset="1" stop-color="#350b0b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff4d3d"/>
+      <stop offset="1" stop-color="#ffbf3f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".42"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" rx="34" fill="url(#bg)"/>
+  <circle cx="1130" cy="90" r="170" fill="#a51616" opacity=".16"/>
+  <circle cx="80" cy="590" r="210" fill="#ff8a00" opacity=".08"/>
+
+  <g filter="url(#shadow)">
+    <rect x="74" y="62" width="1132" height="516" rx="22" fill="#101216" stroke="#3a3d44" stroke-width="2"/>
+    <path d="M74 84a22 22 0 0 1 22-22h1088a22 22 0 0 1 22 22v48H74z" fill="#202329"/>
+    <circle cx="112" cy="97" r="8" fill="#ff5f57"/>
+    <circle cx="140" cy="97" r="8" fill="#febc2e"/>
+    <circle cx="168" cy="97" r="8" fill="#28c840"/>
+    <text x="640" y="104" fill="#aeb4bf" font-size="18" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif">McUndo · 完全离线合成数据演示</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, Liberation Mono, Microsoft YaHei, monospace" font-size="23">
+    <text x="118" y="178" fill="#7ee787">$</text>
+    <text x="145" y="178" fill="#f0f3f6">npm run demo</text>
+
+    <text x="118" y="226" fill="#8b949e">选择订单</text>
+    <text x="300" y="226" fill="#f0f3f6">最近订单 · 尾号 5678</text>
+
+    <text x="118" y="274" fill="#8b949e">修改数量</text>
+    <text x="300" y="274" fill="#f0f3f6">演示汉堡</text>
+    <rect x="468" y="246" width="62" height="38" rx="9" fill="#402020"/>
+    <text x="499" y="273" fill="#ff7b72" text-anchor="middle">2</text>
+    <path d="M550 264h55" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+    <path d="m594 254 12 10-12 10" fill="none" stroke="#ffbf3f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="625" y="246" width="62" height="38" rx="9" fill="#153a24"/>
+    <text x="656" y="273" fill="#7ee787" text-anchor="middle">1</text>
+
+    <text x="118" y="322" fill="#8b949e">重新核价</text>
+    <text x="300" y="322" fill="#f0f3f6">¥42.00</text>
+    <text x="405" y="322" fill="#ffbf3f">→</text>
+    <text x="450" y="322" fill="#f0f3f6">¥22.00</text>
+
+    <text x="118" y="382" fill="#7ee787">✓</text>
+    <text x="158" y="382" fill="#f0f3f6">精确确认后仅取消一次，并重新查询状态</text>
+    <text x="118" y="430" fill="#7ee787">✓</text>
+    <text x="158" y="430" fill="#f0f3f6">最终价格未变化，创建待支付新单</text>
+
+    <rect x="108" y="475" width="1064" height="62" rx="13" fill="#1c2420" stroke="#2ea043" stroke-width="2"/>
+    <text x="140" y="514" fill="#7ee787">完成：旧单已确认取消 · 新单等待用户自行支付</text>
+  </g>
+</svg>

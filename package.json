@@ -8,6 +8,7 @@
     "mcundo": "src/cli.js"
   },
   "scripts": {
+    "start": "node src/cli.js",
     "demo": "node src/cli.js --demo",
     "doctor": "node src/cli.js doctor",
     "verify:live": "node src/cli.js verify",
